@@ -34,7 +34,7 @@ def lambda_handler(event, context):
     if "kaleido.io" in os.environ["FIREFLY_SERVER"]:
         firefly_receiver = "u0t9q1a0v9"
     else:
-        firefly_receiver = "did:firefly:node/node_c0bc6e"
+        firefly_receiver = "did:firefly:node/node_7182f1"
 
     response = helper.call_chain(
         data=data,
