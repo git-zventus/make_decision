@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Packaging lambda
-package/*
+package/
 artifact.zip
 .install.stamp
 
